@@ -45,4 +45,4 @@ resource "null_resource" "configure_bosh_rds" {
   }
 }
 
-#output "stuff"      {value = data.template_file.myfile.rendered }
+output "rendered_file_contents"      {value = data.template_file.myfile.rendered }
